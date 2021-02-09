@@ -1,4 +1,4 @@
-##Basic Autocomplete with elasticsearch
+## Basic Autocomplete with elasticsearch
 
 - Start infra
 
