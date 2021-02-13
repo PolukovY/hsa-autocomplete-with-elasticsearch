@@ -1,0 +1,15 @@
+{
+    "_source": false,
+    "suggest": {
+        "completer": {
+            "prefix": "fer",
+            "completion": {
+                "field": "suggest",
+                "skip_duplicates": true,
+                "fuzzy": {
+                    "fuzziness": "auto"
+                }
+            }
+        }
+    }
+}

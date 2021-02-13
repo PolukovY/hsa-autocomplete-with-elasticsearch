@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(value = "cryptolions", url = "https://wax.cryptolions.io/v2")
 public interface CryptolionsClient {
 
-    @RequestMapping(method = RequestMethod.GET, value = "/history/get_actions?account=simpleassets&limit=100")
+    @RequestMapping(method = RequestMethod.GET, value = "/history/get_actions?act.account=simpleassets&act.name=createlog&limit=1000")
     CryptoResponse getActions();
 }

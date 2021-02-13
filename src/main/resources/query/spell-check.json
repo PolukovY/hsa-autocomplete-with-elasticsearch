@@ -1,0 +1,11 @@
+{
+    "_source": false,
+    "suggest": {
+        "spell-check": {
+            "text": "il",
+            "term": {
+                "field": "author"
+            }
+        }
+    }
+}
